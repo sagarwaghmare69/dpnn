@@ -45,6 +45,7 @@ torch.include('dpnn', 'Sequential.lua')
 torch.include('dpnn', 'ParallelTable.lua')
 torch.include('dpnn', 'LookupTable.lua')
 torch.include('dpnn', 'SpatialBinaryConvolution.lua')
+torch.include('dpnn', 'BinaryLinear.lua')
 
 -- extensions to existing criterions
 torch.include('dpnn', 'Criterion.lua')
